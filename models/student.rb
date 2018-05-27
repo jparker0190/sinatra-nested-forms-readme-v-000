@@ -1,3 +1,4 @@
+class Student
 attr_reader :name, :grade
 
  STUDENTS = []
@@ -11,3 +12,4 @@ attr_reader :name, :grade
   def self.all
     STUDENTS
   end
+end
